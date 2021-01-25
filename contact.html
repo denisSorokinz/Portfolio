@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="icon" href="img/favicon.png" type="image/png" />
+        <title>Denis Sorokin</title>
+        <meta
+            name="description"
+            content="Denis Sorokin A Frontend Web Developer"
+        />
+        <meta property="og:title" content="Denis Sorokin Portfolio" />
+        <meta property="og:url" content="http://denis.40in.net" />
+        <meta
+            property="og:description"
+            content="A Frontend Web Developer Denis Sorokin Portfolio"
+        />
+        <meta property="og:type" content="Portfolio" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="vendors/linericon/style.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link
+            rel="stylesheet"
+            href="vendors/owl-carousel/owl.carousel.min.css"
+        />
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+        <link rel="stylesheet" href="vendors/animate-css/animate.css" />
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+    </head>
+    <body>
+        <header>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div
+                            class="collapse navbar-collapse offset"
+                            id="navbarSupportedContent"
+                        >
+                            <ul class="nav navbar-nav menu_nav m-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-me.html"
+                                        >About</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="projects.html"
+                                        >Projects</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+
+        <!--================Home Banner Area =================-->
+        <section class="banner banner--contact">
+            <div class="container no-bg no-shadow">
+                <h1 class="text-center">Contact Me 🖊</h1>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+        <!--================Contact Area =================-->
+        <section class="contact__content">
+            <div class="container">
+                <div
+                    id="mapBox"
+                    class="mapBox"
+                    data-lat="29.201498"
+                    data-lon="79.509578"
+                    data-zoom="16"
+                    data-info="New Friends Colony, Dahariya, Uttarakhand "
+                    data-mlat="29.201498"
+                    data-mlon="79.509578"
+                ></div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact__info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>Ukraine, Kyiv</h6>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6>
+                                    <a id="em"></a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form
+                            class="row contact__form"
+                            ------action="contact__process.php"
+                            method="post"
+                            id="contactForm"
+                            novalidate="novalidate"
+                        >
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Enter your name"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        name="email"
+                                        placeholder="Enter email address"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="subject"
+                                        name="subject"
+                                        placeholder="Enter Subject"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        id="message"
+                                        rows="1"
+                                        placeholder="Enter Message"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button
+                                    type="submit"
+                                    value="submit"
+                                    class="btn submit_btn"
+                                >
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================Contact Area =================-->
+
+        <!--================Footer Area =================-->
+        <footer>
+            <div class="container">
+                <div class="footer__inner">
+                    <h3 class="footer__title">Know My Tools...</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer__item">
+                                <h4 class="mb-20">
+                                    Javascript (ES7 features 🔥)
+                                </h4>
+                                <p>
+                                    I use Javascript in most of my work. I
+                                    commonly use Javascript based frameworks for
+                                    Web Development and Vanilla Javascript for
+                                    development of powerful websites and
+                                    applications. <br />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer__item">
+                                <h4 class="mb-20">
+                                    Jade PUG, SASS, Bootstrap, and GULP
+                                    (Optionally JS)
+                                </h4>
+                                <p>
+                                    This stack is just all-purpose one in case
+                                    of development a beautiful responsive
+                                    webpage. Preprocessors guarantee marvelous
+                                    code readability in combination with
+                                    Prettifier IDE extension. Pixel-perfect
+                                    design of any complexity is achieved with
+                                    ease, while variables would be glad to help
+                                    to change the theme without any complexity.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer__item">
+                                <h4 class="mb-20">
+                                    ReactJS (TypeScript), Styled Components
+                                    (simple NodeJS + Express + MySQL backend is
+                                    also feasible)
+                                </h4>
+                                <p>
+                                    This one is just awesome and the most
+                                    interesting to me. I use this stack whenever
+                                    I need to develop a Web App which interacts
+                                    with some APIs and handles some complex
+                                    fetching, and rendering logic. Sometimes it
+                                    could be fetching some third-party APIs or
+                                    creating my own RESTful API on backend. Of
+                                    course, I can't miss mentioning how easy it
+                                    is to reuse components created with Styled
+                                    Components library not only while using
+                                    ReactJS, but even React Native!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--================End Footer Area =================-->
+
+        <!--================Contact Success and Error message Area =================-->
+        <div id="success" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                        >
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Thank you</h2>
+                        <p>Your message is successfully sent...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals error -->
+
+        <div id="error" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                        >
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Sorry !</h2>
+                        <p>Something went wrong</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================End Contact Success and Error message Area =================-->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <!-- contact js -->
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
